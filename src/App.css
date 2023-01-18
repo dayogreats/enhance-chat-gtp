@@ -5,16 +5,18 @@
   position: absolute;
   top:0; bottom: 0; right: 0; left: 0;
   color: white;
+}
+.newitem{
+
 
 }
-
 .sidemenu {
   width:240px;
-  background-color: rgb(28, 26, 26);
+  background-color: #202123;
 }
 .chatbox {
   flex: 1;
-  background-color: rgb(60, 65, 73);
+  background-color: #444654;
 }
 .App-logo {
   height: 40vmin;
