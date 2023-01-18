@@ -1,7 +1,21 @@
 .App {
   text-align: center;
+  display: flex;
+  background-color: gray;
+  position: absolute;
+  top:0; bottom: 0; right: 0; left: 0;
+  color: white;
+
 }
 
+.sidemenu {
+  width:240px;
+  background-color: rgb(28, 26, 26);
+}
+.chatbox {
+  flex: 1;
+  background-color: rgb(60, 65, 73);
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
